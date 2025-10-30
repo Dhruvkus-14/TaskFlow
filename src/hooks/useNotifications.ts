@@ -1,6 +1,12 @@
 import { useEffect } from "react";
 import { Task } from "@/store/taskStore";
 import { toast } from "@/hooks/use-toast";
+/**
+ * Project: TaskFlow
+ * Author: Dhruv Kushwaha
+ * Copyright © 2025
+ * This code is for educational showcase only.
+ */
 
 export const useNotifications = (tasks: Task[]) => {
   useEffect(() => {

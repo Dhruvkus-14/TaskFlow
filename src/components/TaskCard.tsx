@@ -4,6 +4,12 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Pencil, Trash2, CheckCircle2, Circle, Calendar } from "lucide-react";
 import { format } from "date-fns";
+/**
+ * Project: TaskFlow
+ * Author: Dhruv Kushwaha
+ * Copyright © 2025
+ * This code is for educational showcase only.
+ */
 
 interface TaskCardProps {
   task: Task;

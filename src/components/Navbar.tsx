@@ -3,6 +3,12 @@ import { Link, useLocation } from "react-router-dom";
 import { CheckSquare, Settings, LayoutDashboard } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { ThemeToggle } from "@/components/ThemeToggle";
+/**
+ * Project: TaskFlow
+ * Author: Dhruv Kushwaha
+ * Copyright © 2025
+ * This code is for educational showcase only.
+ */
 
 const Navbar = () => {
   const { user } = useUser();

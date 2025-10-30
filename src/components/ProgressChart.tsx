@@ -6,6 +6,12 @@ interface ProgressChartProps {
   pending: number;
   completed: number;
 }
+/**
+ * Project: TaskFlow
+ * Author: Dhruv Kushwaha
+ * Copyright © 2025
+ * This code is for educational showcase only.
+ */
 
 const ProgressChart = ({ total, pending, completed }: ProgressChartProps) => {
   const data = [

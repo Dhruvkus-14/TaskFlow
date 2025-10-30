@@ -1,5 +1,11 @@
 import { useLocation } from "react-router-dom";
 import { useEffect } from "react";
+/**
+ * Project: TaskFlow
+ * Author: Dhruv Kushwaha
+ * Copyright © 2025
+ * This code is for educational showcase only.
+ */
 
 const NotFound = () => {
   const location = useLocation();

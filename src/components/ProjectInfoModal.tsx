@@ -10,6 +10,12 @@ interface ProjectInfoModalProps {
   isOpen: boolean;
   onClose: () => void;
 }
+/**
+ * Project: TaskFlow
+ * Author: Dhruv Kushwaha
+ * Copyright © 2025
+ * This code is for educational showcase only.
+ */
 
 const ProjectInfoModal = ({ project, isOpen, onClose }: ProjectInfoModalProps) => {
   return (

@@ -1,3 +1,10 @@
+/**
+ * Project: TaskFlow
+ * Author: Dhruv Kushwaha
+ * Copyright © 2025
+ * This code is for educational showcase only.
+ */
+
 import { useUser } from "@clerk/clerk-react";
 import { Navigate } from "react-router-dom";
 import Navbar from "@/components/Navbar";

@@ -1,6 +1,13 @@
 import { useUser } from "@clerk/clerk-react";
 import { useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
+/**
+ * Project: TaskFlow
+ * Author: Dhruv Kushwaha
+ * Copyright © 2025
+ * This code is for educational showcase only.
+ */
+
 import { useProjectStore, KeyPerson, Resource } from "@/store/projectStore";
 import { useTaskStore } from "@/store/taskStore";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";

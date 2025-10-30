@@ -1,4 +1,10 @@
 // Update this page (the content is just a fallback if you fail to update the page)
+/**
+ * Project: TaskFlow
+ * Author: Dhruv Kushwaha
+ * Copyright © 2025
+ * This code is for educational showcase only.
+ */
 
 const Index = () => {
   return (
